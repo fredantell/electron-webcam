@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  -webkit-app-region: drag;
+}
+#my_camera {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#my_camera video, #my_camera canvas {
+  width: 100% !important;
+  height: 100% !important;
+}

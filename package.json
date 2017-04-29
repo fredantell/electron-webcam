@@ -1,0 +1,29 @@
+{
+  "name": "WebcamViewer",
+  "version": "1.0.0",
+  "description": "View a feed from your webcam in a frameless window",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ WebcamViewer --out ~/Desktop/WebcamViewer --overwrite --icon=./webcam-icon.png"
+  },
+  "repository": "https://github.com/fredantell/electron-webcam",
+  "keywords": ["Webcam"],
+  "author": "Fred Antell",
+  "license": "MIT",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "~1.6.2",
+    "electron-packager": "^8.6.0"
+  },
+  "dependencies": {
+    "electron-debug": "^1.1.0",
+    "webcamjs": "^1.0.22"
+  },
+  "build": {
+    "appId": "webcam",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}
